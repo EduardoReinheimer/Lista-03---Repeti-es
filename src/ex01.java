@@ -13,6 +13,7 @@ public class ex01 {
 			System.out.print(DEFAULT_INPUT_MESSAGE);
 			nota = input.nextFloat();
 		}
+		input.close();
 
 	}
 

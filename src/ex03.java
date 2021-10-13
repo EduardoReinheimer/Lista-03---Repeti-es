@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class at03 {
+public class ex03 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -49,6 +49,7 @@ public class at03 {
 			System.out.println("Digite o caracter correspondente ao estado civil: ");
 			estadoCivil = input.next().charAt(0);
 		}
+		input.close();
 
 	}
 
